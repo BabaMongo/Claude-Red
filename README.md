@@ -91,6 +91,19 @@ Paste the contents of a `SKILL.md` into a Project's system prompt or prepend to 
 ./install.sh --category web            # one category
 ```
 
+### VPS / Server Install
+
+To install Claude Code **and** these skills on a VPS in one step, use the VPS
+installer. See [VPS_INSTALLATION.md](VPS_INSTALLATION.md) for the full guide.
+
+```bash
+./install-vps.sh --install-all         # Claude Code CLI + all skills
+./install-vps.sh --claude-only         # just the Claude Code CLI
+./install-vps.sh --skills-only         # just the claude-red skills
+./install-vps.sh --systemd             # also register a systemd service
+./install-vps.sh --dry-run             # preview without making changes
+```
+
 ---
 
 ## Categories
